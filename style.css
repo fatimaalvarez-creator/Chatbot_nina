@@ -1,0 +1,202 @@
+/* style.css - versión reducida solo con estilos usados en el HTML actual */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #400949;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(imagenes/fondo1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 5%;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #fff;
+  font-weight: 600;
+  display: block;
+}
+
+.menu .navbar ul li a:hover {
+  color: #e9b0ff;
+}
+
+#menu {
+  display: none;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.header-content {
+  display: flex;
+}
+
+.header-txt {
+  flex-basis: 50%;
+}
+
+.header-txt h1 {
+  font-size: 60px;
+  color: #fff;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+
+.header-txt span {
+  color: #400949;
+}
+
+.header-txt p {
+  font-size: 17px;
+  color: #E0E0E0;
+  margin-bottom: 45px;
+}
+
+.butons {
+  display: flex;
+}
+
+.btn-1 {
+  display: inline-block;
+  padding: 11px 35px;
+  border: 2px solid #e9b0ff;
+  border-radius: 25px;
+  margin-right: 25px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.btn-1:hover {
+  background-color: #e9b0ff;
+}
+
+#container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #400949;
+}
+
+#chat-container {
+  display: flex;
+  width: 60vw;
+  flex-direction: column;
+  max-width: 80%;
+  max-height: 80%;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border: 3px solid rgb(252, 159, 237);
+}
+
+#chat-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#chat-messages {
+  height: 50vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#chat-input-container {
+  display: flex;
+}
+
+#chat-input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #e2a3ff;
+  color: #400949;
+}
+
+button {
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #e2a3ff;
+  background-color: #e2a3ff;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled, input[type=text]:disabled {
+  background-color: white;
+  cursor: wait;
+  color: #e2a3ff;
+  border: 1px dashed #e2a3ff;
+}
+
+.chat-message {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  white-space: break-spaces;
+  width: 80%;
+}
+
+.chat-message.user {
+  background-color: rgb(210, 146, 238);
+  align-self: flex-end;
+}
+
+.chat-message.assistant {
+  background-color: rgb(249, 147, 217);
+  align-self: flex-start;
+}
