@@ -1,0 +1,53 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Nina</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="menu container">
+      <a href="#" class="logo">Nina</a>
+      <input type="checkbox" id="menu" />
+      <label for="menu">
+        <img src="imagenes/fondo1.jpg" class="menu-icono" alt="menu" />
+      </label>
+      <nav class="navbar">
+        <ul>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="https://tec.mx/es/innovacion-y-transformacion/ingenieria-biomedica" target="_blank" rel="noopener noreferrer">Informes</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-content container">
+      <div class="header-txt">
+        <h1>Proyecto <span>Nina</span> está aquí para apoyarte!</h1>
+        <p>Bienvenida a Nina, un espacio seguro donde puedes hacer preguntas y encontrar recursos relevantes.</p>
+        <div class="butons">
+          <a href="#" class="btn-1">Información</a>
+          <a href="#" class="btn-1">Otros</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="container">
+    <div id="chat-container">
+      <div id="chat-header">
+        <h2>Chatbot Nina 💜</h2>
+      </div>
+      <div id="chat-messages" class="chat-messages"></div>
+      <div id="chat-input-container">
+        <input type="text" id="chat-input" placeholder="Escribe tu mensaje..." />
+        <button id="send-button" disabled>Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="chatbot.js"></script>
+</body>
+</html>
