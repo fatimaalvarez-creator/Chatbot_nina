@@ -2,7 +2,7 @@
 
 Instituto Tecnológico y de Estudios Superiores de Monterrey (Campus Guadalajara) <br/>
 Género, sociedad y derechos humanos (Gpo 618) <br/>
-Alumnas: <br/>
+*Alumnas:* <br/>
 Elizabeth Jáuregui Zárate (A01253381) <br/>
 Sophia Leñero Gómez (A01639462) <br/>
 Fatima Álvarez Nuño (A01645815) <br/>
