@@ -25,7 +25,7 @@ img {
 }
 
 .header {
-  background-image: url(imagenes/fondo1.png);
+  background-color: #400949;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -129,6 +129,7 @@ img {
   justify-content: center;
   align-items: center;
   background-color: #400949;
+
 }
 
 #chat-container {
