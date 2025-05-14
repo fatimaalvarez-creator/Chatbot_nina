@@ -94,7 +94,7 @@ img {
 }
 
 .header-txt span {
-  color: #400949;
+  background-image: url(imagenes/fondo1.png);
 }
 
 .header-txt p {
