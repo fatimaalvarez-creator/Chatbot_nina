@@ -6,7 +6,8 @@
 Elizabeth Jáuregui Zárate (A01253381) <br/>
 Sophia Leñero Gómez (A01639462) <br/>
 Fatima Álvarez Nuño (A01645815) <br/>
-**Fecha de entrega:** 05/06/25 <br/>
+Elisa Martinez Alcantara (A01645409) </br>
+**Fecha de entrega:** 09/06/25 <br/>
 
 
 ## 🤖 Nina – Chatbot de Apoyo para Mujeres Víctimas de Violencia <br>
