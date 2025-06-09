@@ -11,8 +11,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #400949;
-  background-image: url(imagenes/fondo1.png);
+  background-color: #44044b;
 }
 
 img {
@@ -25,14 +24,15 @@ img {
 }
 
 .header {
-  background-color: #400949;
+  background-color: #44044b;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   display: flex;
   align-items: center;
-  padding: 80px 0 0 0;
+  padding: 120px 0 80px 0;
+  background-image: url(imagenes/fondo2.jpg);
 }
 
 .menu {
@@ -47,7 +47,7 @@ img {
 
 .logo {
   margin-left: 5%;
-  color: #fff;
+  color: #f75ed9;
   font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
@@ -95,7 +95,7 @@ img {
 }
 
 .header-txt span {
-  color: #400949;
+  color: #ffffff};
 }
 
 .header-txt p {
@@ -128,7 +128,7 @@ img {
   height: 75vh;
   justify-content: center;
   align-items: center;
-  background-color: #400949;
+  background-color: #44044b;
 
 }
 
@@ -165,7 +165,7 @@ img {
   padding: 1rem;
   margin: 1rem;
   border: 1px solid #e2a3ff;
-  color: #400949;
+  color: #44044b;
 }
 
 button {
@@ -200,4 +200,44 @@ button:disabled, input[type=text]:disabled {
 .chat-message.assistant {
   background-color: rgb(249, 147, 217);
   align-self: flex-start;
+}
+
+.relevante {
+  padding: 3rem 1rem;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 3rem auto;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.faq-title {
+  text-align: center;
+  color: #4a155f;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.faq-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #fdf3ff;
+  border-left: 5px solid #e2a3ff;
+  border-radius: 12px;
+}
+
+.faq-item h2 {
+  font-size: 1.4rem;
+  color: #4a155f;
+  margin-bottom: 1rem;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  color: #8b3594;
+  line-height: 1.6;
+}
+
+.intro-text {
+  color: white;
 }
