@@ -201,3 +201,39 @@ button:disabled, input[type=text]:disabled {
   background-color: rgb(249, 147, 217);
   align-self: flex-start;
 }
+
+.relevante {
+  padding: 3rem 1rem;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 3rem auto;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.faq-title {
+  text-align: center;
+  color: #e9b0ff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.faq-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #fdf3ff;
+  border-left: 5px solid #e2a3ff;
+  border-radius: 12px;
+}
+
+.faq-item h2 {
+  font-size: 1.4rem;
+  color: #400949;
+  margin-bottom: 1rem;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  color: #5a2961;
+  line-height: 1.6;
+}
