@@ -11,7 +11,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #400949;
+  background-color: #44044b;
 }
 
 img {
@@ -24,14 +24,15 @@ img {
 }
 
 .header {
-  background-color: #400949;
+  background-color: #44044b;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   display: flex;
   align-items: center;
-  padding: 80px 0 0 0;
+  padding: 120px 0 80px 0;
+  background-image: url(imagenes/fondo2.jpg);
 }
 
 .menu {
@@ -46,7 +47,7 @@ img {
 
 .logo {
   margin-left: 5%;
-  color: #fff;
+  color: #f75ed9;
   font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
@@ -94,7 +95,7 @@ img {
 }
 
 .header-txt span {
-  color: #400949;
+  color: #ffffff};
 }
 
 .header-txt p {
@@ -127,7 +128,7 @@ img {
   height: 75vh;
   justify-content: center;
   align-items: center;
-  background-color: #400949;
+  background-color: #44044b;
 
 }
 
@@ -164,7 +165,7 @@ img {
   padding: 1rem;
   margin: 1rem;
   border: 1px solid #e2a3ff;
-  color: #400949;
+  color: #44044b;
 }
 
 button {
@@ -211,7 +212,7 @@ button:disabled, input[type=text]:disabled {
 
 .faq-title {
   text-align: center;
-  color: #e9b0ff;
+  color: #4a155f;
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -227,12 +228,16 @@ button:disabled, input[type=text]:disabled {
 
 .faq-item h2 {
   font-size: 1.4rem;
-  color: #400949;
+  color: #4a155f;
   margin-bottom: 1rem;
 }
 
 .faq-item p {
   font-size: 1rem;
-  color: #5a2961;
+  color: #8b3594;
   line-height: 1.6;
+}
+
+.intro-text {
+  color: white;
 }
